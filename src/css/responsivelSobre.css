@@ -1,0 +1,18 @@
+
+
+
+@media (max-width: 800px){
+
+  
+    .list-nav ul li a {
+        display: none;
+    }
+
+    .sobre-mobi {
+        font-weight: bolder;
+    }
+
+    
+}
+    
+

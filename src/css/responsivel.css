@@ -1,0 +1,542 @@
+/* @media (width: 1980px, 1080px) {
+
+    body {
+        overflow-x: scroll;
+        overflow-x: hidden;
+    }
+    .cabecalho {
+        width: 100%;  
+    } 
+
+    .cabecalho nav li a {
+        left: 1660px;
+    }
+
+    .container {
+        background-color: aqua;
+        width: 135%;
+    }
+
+    .container img {
+        width: 641px;
+        position: relative;
+    }
+
+    .container2 {
+        background-color: blue;
+        width: 100vw;
+    }
+    .iimg1 {
+        height: auto;
+    }
+
+    .info-final {
+        background-color: blueviolet;
+        width: 136%;
+
+    }
+} */
+
+/* @media (max-width: 1440px) {
+
+    .cabecalho {
+        background-color: rgb(255, 0, 0);
+        width: 100%;
+    }
+
+    .cabecalho nav li a {
+        left: 1130px;
+    }
+
+    .container {
+        background-color: aqua;
+        width: 100%;
+    }
+
+    .container img {
+        width: 450px;
+        position: relative;
+    }
+
+    .container2 {
+        width: 100%;
+    }
+
+    .info-final {
+        background-color: blueviolet;
+        width: 100%;
+
+    }
+} */
+
+
+@media (max-width: 1200px) {
+    .cabecalho {
+        width: 100%;
+    } 
+
+    .container {
+        width: 100%;
+    }
+
+    .container img {
+        width: 99%;
+        position: relative;
+        right: 3px;
+    }
+
+    .quem-somos  {
+       position: relative;
+       right: 300px;
+
+       
+    }
+
+    .entre-contato  {
+        position: relative;
+        right: 0px;
+    }
+
+    .entre-contato strong {
+        left: 220px;
+        
+    }
+
+    .whats-local { 
+        left: 300px;
+    }
+
+    .gmail {
+        left: 220px;
+       
+    }
+}
+
+@media (max-width: 800px){
+    .cabecalho {
+        display: flex;
+        position: absolute;
+    }
+    .list-nav ul li a {
+        display:none;
+    }
+
+    .mobile-cabecalho {
+        width: 800px;
+        height: 100vh;
+        display: none; 
+    }
+
+    
+
+    .home-mobi {
+        font-weight: bold;
+    }
+
+
+    .open {
+        display: block;
+    }
+
+    .mobile-cabecalho ul li a {
+        font-size: 20px;
+        text-align: center;
+        padding: 0px; 
+        color: black;
+        
+    }
+    .quem-somos  {
+        position: relative;
+        right: 590px;
+ 
+        
+    }
+    .quem-somos  strong {
+        width: 60%;
+        
+        
+    }
+
+    .sobre-mobi  {
+        padding: 50px;
+       
+    }
+
+    .layer1 {
+        height: 950px;
+
+    }
+
+    .layer1-info {
+        right: 40px;
+        width: 600px;
+        height: 390px;
+        overflow-y: hidden;
+        overflow-x: hidden;
+
+    }
+
+
+    .comecial , .estrategia {
+        position: relative;
+        left: 100px;
+        margin: 20px;
+    }
+
+    .estrategia img {
+        left: 80px;
+        
+    }
+
+    .planejamento {
+        top: 160px;
+        right: 390px;
+    }
+    
+    .planejamento img {
+        left: 90px;
+    }
+
+    .layer1-info img {
+        width: 20%;
+        
+    }
+    .layer1-info p {
+        font-size: 12px;
+    }
+
+    
+    
+
+    .entre-contato img  {
+       left: 270px;
+       
+    }
+
+    .entre-contato strong {
+        left: 60px;
+    }
+
+    .whats-local { 
+        left: 0px;
+        
+    }
+
+    .whats-local div {
+        left: 150px;
+    }
+
+    .local a {
+        position: relative;
+        left: 120px;
+        overflow-x: hidden;
+    }
+
+    .gmail {
+        left: 50px;
+        
+       
+    }
+
+    .info-final {
+        width: 100%;
+    }
+
+    .info-final div {
+        margin: 10px;
+    }
+}
+
+@media (max-width: 420px) {
+    
+    body {
+        flex-wrap: wrap;
+    }
+
+    .button-cabecalho button  {
+        
+        left: 340px;
+        top: 0;
+    }
+
+    .container .maquina {
+        flex-direction: column;
+        width: 380px;
+    }
+    .dobra {
+        position: relative;
+        left: 8px ;
+    }
+
+    .layer1 {
+        flex-direction: column;
+        
+    }
+
+    .layer1-info {
+        flex-direction: column;
+        left: 0px;
+        width: 100%;
+        height: 660px;
+    }
+
+    .layer1-info div {
+        left: 75px;
+    }
+    .comercial  {
+        margin-left: 90px;
+    }
+
+    .estrategia img {
+        left: 70px;
+    }
+
+    .planejamento img {
+        left: 75px;
+    }
+
+    
+
+    .comecial , .estrategia {
+        position: relative;
+        left: 0px;
+        margin: 0px;
+    }
+
+    .planejamento {
+        top: 0px;
+        right: 0px;
+        
+    }
+
+    .info-final {
+        flex-direction: column;
+    }
+
+    .quem-somos   {
+        position: relative;
+        right: 700px;
+ 
+        
+    }
+    .quem-somos .icone-p img {
+        position: relative;
+        right: 900px;
+    }
+    .quem-somos  strong {
+        font-size: 22px;
+        width: 100%;
+        position: relative; 
+        left: 600px;
+    }
+
+    .quem-somos p {
+        width: 60%;
+        position: relative;
+        left: 770px;
+    }
+
+    .redes-sobre  {
+        position: relative;
+        right: 50px;
+        
+    }
+
+    .entre-contato {
+        overflow: hidden;
+    }
+    .entre-contato img  {
+        left: 130px;
+        
+        
+    }
+ 
+    .entre-contato strong {
+        font-size: 20px;
+        position: relative; 
+        display: block;
+        left: 0;
+        
+    }
+ 
+    .whats-local div {
+        left: 0px;
+    }
+ 
+   
+ 
+    .gmail  {
+         left: 5px; 
+    }
+
+    .gmail input {
+        width: 375px;
+    }
+
+    .gmail textarea {
+        width: 375px;
+    }
+
+    .enviar-mensagem {
+        right: 250px;
+        position: relative;
+    }    
+        
+
+}
+
+@media (max-width: 395px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .button-cabecalho button  {
+        left: 320px;
+        top: 0;
+    }
+
+    .maquina  {
+        width: 50px;
+        margin: 0px;
+        
+    }
+
+    .maquina .dobra {
+        width: 350px;
+    }
+
+    .comercial  {
+        margin-left: 60px;
+    }
+
+    .layer1-info div {
+        left: 50px;
+    }
+
+    .entre-contato img  {
+        left: 120px;
+        
+        
+    }
+ 
+    .entre-contato strong {
+        font-size: 20px;
+        position: relative; 
+        display: block;
+        left: 10px;
+        
+    }
+ 
+    .whats-local div {
+        left: 0px;
+        padding: 10px;
+    }
+
+    .local a {
+        left: 90px;
+    }
+ 
+    .gmail  {
+         left: 5px; 
+    }
+
+    .gmail input {
+        width: 360px;
+    }
+
+    .gmail textarea {
+        width: 360px;
+    }
+
+    .enviar-mensagem {
+        right: 260px;
+        position: relative;
+    } 
+}
+
+@media (max-width: 380px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .button-cabecalho button  {
+        left: 300px;
+        top: 0;
+    }
+    .maquina {
+        right: 10px;
+    }
+    .maquina  {
+        width: 50px;
+        margin: 0px;
+        
+    }
+
+     .dobra {
+        width: 350px;
+        margin: 10px;
+    }
+
+    .comercial  {
+        margin-left: 50px;
+    }
+
+    .layer1-info div {
+        left: 40px;
+    }
+
+    .whats-local div {
+        left: 40px;
+        padding: 10px;
+    }
+    .whats-local span {
+        font-size: 10px;
+    }
+
+    .local a {
+        left: 70px;
+    }
+ 
+    .gmail  {
+         left: 5px; 
+    }
+
+    .gmail input {
+        width: 325px;
+    }
+
+    .gmail textarea {
+        width: 325px;
+    }
+
+    .enviar-mensagem {
+        right: 290px;
+        position: relative;
+    } 
+}
+
+@media (max-width: 370px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .button-cabecalho button  {
+        left: 286px;
+        top: 0;
+    }
+    
+
+    .dobra {
+        left: 10px;
+    }
+
+    .comercial  {
+        margin-left: 50px;
+    }
+
+    .layer1-info div {
+        left: 40px;
+    }
+}
+
