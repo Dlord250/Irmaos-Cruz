@@ -253,11 +253,7 @@
         flex-wrap: wrap;
     }
 
-    .button-cabecalho button  {
-        
-        left: 340px;
-        top: 0;
-    }
+    
 
     .container .maquina {
         flex-direction: column;
@@ -390,10 +386,6 @@
         overflow-x: hidden;
     }
 
-    .button-cabecalho button  {
-        left: 320px;
-        top: 0;
-    }
 
     .maquina  {
         width: 50px;
@@ -460,10 +452,6 @@
         overflow-x: hidden;
     }
 
-    .button-cabecalho button  {
-        left: 300px;
-        top: 0;
-    }
     .maquina {
         right: 10px;
     }
@@ -520,12 +508,6 @@
     body {
         overflow-x: hidden;
     }
-
-    .button-cabecalho button  {
-        left: 286px;
-        top: 0;
-    }
-    
 
     .dobra {
         left: 10px;
